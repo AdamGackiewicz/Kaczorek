@@ -117,6 +117,7 @@ namespace Kaczorek.BL.Test
 
             //Assert (potwierdź test)
             Assert.AreEqual(oczekiwania, aktualna);
+            klient.Pobierz(2);
 
         }
     }

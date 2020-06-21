@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Kaczorek.BL
 {
-    class Produkt
+   public class Produkt
     {
         public Produkt()
         {
@@ -46,14 +46,14 @@ namespace Kaczorek.BL
         }
 
         /// <summary>
-        /// Pobieramy jednen produkt
+        /// Pobieramy jeden produkt
         /// </summary>
         /// <param name="produktId"></param>
         /// <returns></returns>
-        public Klient Pobierz(int produktId)
+        public Produkt Pobierz(int produktId)
         {
             //Kod który pobiera określony produkt
-            return new Klient();
+            return new Produkt();
         }
 
         /// <summary>
